@@ -40,7 +40,7 @@ CREATE TABLE `receivers` (
 -- Dumping data for table `receivers`
 --
 
-LOCK TABLES `receivers` WRITE;
+
 /*!40000 ALTER TABLE `receivers` DISABLE KEYS */;
 /*!40000 ALTER TABLE `receivers` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -96,7 +96,7 @@ CREATE TABLE `hospitals` (
 -- Dumping data for table `hospitals`
 --
 
-LOCK TABLES `hospitals` WRITE;
+
 /*!40000 ALTER TABLE `hospitals` DISABLE KEYS */;
 /*!40000 ALTER TABLE `hospitals` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -155,7 +155,6 @@ CREATE TABLE `donors` (
 -- Dumping data for table `donors`
 --
 
-LOCK TABLES `donors` WRITE;
 /*!40000 ALTER TABLE `donors` DISABLE KEYS */;
 /*!40000 ALTER TABLE `donors` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -210,7 +209,7 @@ CREATE TABLE `admins` (
 -- Dumping data for table `admins`
 --
 
-LOCK TABLES `admins` WRITE;
+
 /*!40000 ALTER TABLE `admins` DISABLE KEYS */;
 /*!40000 ALTER TABLE `admins` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -225,3 +224,4 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-09-20 21:10:26
+
